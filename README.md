@@ -98,6 +98,8 @@ The build process compiles the firmware and generates output files in the `Outpu
 - MAP file
 - Disassembly and symbol-related reports
 
+![Image](.github/images/build.png)
+
 ## Flashing the Binary
 
 After a successful build, use Renesas Flash Programmer tool from the `Tools` folder to flash the generated firmware image to the target board.
