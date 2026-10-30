@@ -111,7 +111,7 @@ After a successful build, use Renesas Flash Programmer tool from the `Tools` fol
 
 ## Tools
 
-The following tools are need to build and flash the application :
+The following tools are needed to build and flash the application :
 
 | Tool                     | Link                                                         |
 | ------------------------ | ------------------------------------------------------------ |
