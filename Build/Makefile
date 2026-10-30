@@ -33,7 +33,6 @@ FORMAT_LINKER_ERR =
 RTOS = 
 
 LOCKDIR := $(OUTPUT_DIR)/err_formatter.lock
-SHELL   := /bin/bash
 
 ############################################################################################
 # Toolchain
