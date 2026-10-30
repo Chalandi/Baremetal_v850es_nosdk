@@ -15,6 +15,7 @@ jobs:
         run: |
           wget https://github.com/ckormanyos/gcc-v850-unknown-elf/releases/download/v16.2.0/gcc-16.2.0-v850-unknown-elf.tar.gz
           tar -xf gcc-16.2.0-v850-unknown-elf.tar.gz
+          $GITHUB_WORKSPACE/gcc-16.2.0-v850-unknown-elf/bin/v850-unknown-elf-gcc -v
 
       - name: Build Binary
         shell: bash
