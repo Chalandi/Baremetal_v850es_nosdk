@@ -23,8 +23,7 @@ The repository is organized to separate low-level infrastructure from applicatio
 The sample application in `Code/Appli/main.c` performs the following:
 
 - Initializes the UART peripheral at 115200 baud
-- Prints the message:
-  `Hello from V850ES!`
+- Prints the message: `Hello from V850ES!`
 - Configures a hardware timer interrupt
 - Toggles an LED through a periodic interrupt routine
 - Enters a permanent foreground loop while waiting for timer events
@@ -113,10 +112,11 @@ After a successful build, use Renesas Flash Programmer tool from the `Tools` fol
 
 The following tools are needed to build and flash the application :
 
-| Tool                     | Link                                                         |
-| ------------------------ | ------------------------------------------------------------ |
-| V850 GCC compiler        | https://github.com/ckormanyos/gcc-v850-unknown-elf/releases/download/v16.2.0/gcc-16.2.0-v850-unknown-elf.tar.gz |
-| Renesas Flash Programmer | https://github.com/Chalandi/Baremetal_v850es_nosdk/blob/master/Tools/Renesas%20Flash%20Programmer%20V2.05/Renesas%20Flash%20Programmer%20V2.05.7z |
+| Tool                        | Link                                                         |
+| --------------------------- | ------------------------------------------------------------ |
+| V850 GCC compiler (Linux)   | https://github.com/ckormanyos/gcc-v850-unknown-elf/releases/download/v16.2.0/gcc-16.2.0-v850-unknown-elf.tar.gz |
+| V850 GCC compiler (Windows) | https://github.com/ckormanyos/gcc-v850-unknown-elf/releases/download/v16.2.0/gcc-16.2.0-v850-unknown-elf_x86_64-w64-mingw32.zip |
+| Renesas Flash Programmer    | https://github.com/Chalandi/Baremetal_v850es_nosdk/blob/master/Tools/Renesas%20Flash%20Programmer%20V2.05/Renesas%20Flash%20Programmer%20V2.05.7z |
 
 ## Continuous Integration
 
