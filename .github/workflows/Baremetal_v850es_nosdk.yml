@@ -17,6 +17,7 @@ jobs:
           tar -xf gcc-16.2.0-v850-unknown-elf.tar.gz
 
       - name: Build Binary
+        shell: bash
         run: |
           export TOOLCHAIN_GCC=$GITHUB_WORKSPACE/gcc-16.2.0-v850-unknown-elf/bin/
           export PATH=$TOOLCHAIN_GCC:$PATH
